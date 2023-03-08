@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-weight: normal;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #f7f7f7;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.profile h1 {
+    font-size: 36px;
+}
+
+.contact-info {
+    margin-top: 30px;
+    background: #0066CC
+}
+
+.contact-info ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+.contact-info ul li {
+    margin-bottom: 10px;
+    color:white;
+}
+
+.contact-info ul li i {
+    margin-right: 10px;
+    color:white ;
+}
+
+.section {
+    margin-top: 50px;
+}
+
+.section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.section ul li {
+    margin-bottom: 10px;
+}
+
+.section ul li span {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.section ul li p {
+    margin: 0;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.skills span {
+    background-color: #f2f2f2;
+    color: #333;
+    padding: 8px 16px;
+    margin: 4px;
+    border-radius: 4px;
+    transition: all 0.3s ease-in-out;
+}
+
+.animate span {
+    transform: translateY(-20px);
+    opacity: 1;
+}
+
